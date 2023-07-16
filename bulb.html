@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .light{
+            height:500px;
+            width: 500px;
+            margin-left: 500PX;
+            margin-top: 40PX;
+           
+        
+        }
+        .h1{
+          color: rgb(255, 76, 16);
+          height: 20px;
+          
+          
+        }
+       .on{
+        margin-left: 700px;
+           height: 40px;
+           width: 40px;
+           border-radius: 10px;
+
+       }
+       .off{
+         margin-left: 20px;
+           height: 40px;
+           width: 40px;
+           border-radius: 10px;
+       }
+       
+        
+    </style>
+   <center> <h1 class="h1"> Bulb On-Off</h1></center>
+</head>
+<body>
+    <img id="b" class="light" src="https://media.istockphoto.com/id/502789173/photo/light-bulb-concept.jpg?s=612x612&w=0&k=20&c=vJfSDuFJf_4UsQcUsdMNUfDkkNU6Bf9cTHF-n4-Zwvs="alt=""><br><br>
+    <BUtton id="on" onclick="turnon()" class="on">ON</BUtton>
+    <button id="off" onclick="turnoff()" class="off">OFF</button>
+    <script>
+     function turnon(){
+        document.getElementById('b').src="https://ts2.space/wp-content/uploads/2023/04/mfrack_realistic_photo_of_electric_energy_8732c9f4-fa06-45e3-8c0d-86840c127475-1024x574.jpeg";
+     }
+     function turnoff(){
+        document.getElementById('b').src="https://media.istockphoto.com/id/502789173/photo/light-bulb-concept.jpg?s=612x612&w=0&k=20&c=vJfSDuFJf_4UsQcUsdMNUfDkkNU6Bf9cTHF-n4-Zwvs=";
+     }
+          
+    </script>
+</body>
+</html>
